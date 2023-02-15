@@ -1,10 +1,3 @@
-/*
-
-The Town
-
-https://templatemo.com/tm-525-the-town
-
-*/
 
 html {
   font-size: 18px;
@@ -132,7 +125,8 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/the-town-bg-01.jpg);
+ /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);*/
+  background-color:coral;
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -318,8 +312,6 @@ a:focus {
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -431,7 +423,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
+  background-color: #c57e7d;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
